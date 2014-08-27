@@ -40,6 +40,7 @@ set_include_path(implode(PATH_SEPARATOR, array(
             get_include_path(),
         )));
 
+require_once 'vendor/autoload.php';
 require_once 'Mage/Selenium/Autoloader.php';
 Mage_Selenium_Autoloader::register();
 
